@@ -1,0 +1,419 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <metadata name="tTip.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+    <value>17, 17</value>
+  </metadata>
+  <data name="label1.ToolTip" xml:space="preserve">
+    <value>The number of different block sizes.
+Usually, in flowcharts, the variety of sizes is limited. This number shows how many different sizes are available for use.
+
+Количество разных размеров блоков.
+Обычно, в блок-схемах разнообразие размеров ограничено. Данное число показывает ,сколько различных размеров доступно для использования</value>
+  </data>
+  <data name="nmb_countSizes.ToolTip" xml:space="preserve">
+    <value>The number of different block sizes.
+Usually, in flowcharts, the variety of sizes is limited. This number shows how many different sizes are available for use.
+
+Количество разных размеров блоков.
+Обычно, в блок-схемах разнообразие размеров ограничено. Данное число показывает ,сколько различных размеров доступно для использования.</value>
+  </data>
+  <data name="label2.ToolTip" xml:space="preserve">
+    <value>The aspect ratio of the flowchart block. The ratio " 1 "means that the block will be square," 0.5", which will be elongated in height.
+
+The aspect ratio of the flowchart block. The ratio " 1 "means that the block will be square," 0.5", which will be elongated in height.</value>
+  </data>
+  <data name="nmb_ratioBlock.ToolTip" xml:space="preserve">
+    <value>The aspect ratio of the flowchart block. The ratio " 1 "means that the block will be square," 0.5", which will be elongated in height.
+
+The aspect ratio of the flowchart block. The ratio " 1 "means that the block will be square," 0.5", which will be elongated in height.</value>
+  </data>
+  <data name="label3.ToolTip" xml:space="preserve">
+    <value>The aspect ratio of the flowchart rendering field. A ratio of less than one means that the field will be extended in height.
+"0.65" corresponds to the ratio of the A4 sheet in portrait orientation.
+
+Соотношение сторон поля отрисовки блок-схемы. Соотношение меньше единицы означает, что поле будет вытянуто в высоту.
+"0.65" соответствует соотношению листа А4 в книжной ориентации.</value>
+  </data>
+  <data name="nmb_ratioCanvas.ToolTip" xml:space="preserve">
+    <value>The aspect ratio of the flowchart rendering field. A ratio of less than one means that the field will be extended in height.
+"0.65" corresponds to the ratio of the A4 sheet in portrait orientation.
+
+Соотношение сторон поля отрисовки блок-схемы. Соотношение меньше единицы означает, что поле будет вытянуто в высоту.
+"0.65" соответствует соотношению листа А4 в книжной ориентации.</value>
+  </data>
+  <data name="label4.ToolTip" xml:space="preserve">
+    <value>The ratio of the area of the canvas and the block. The specified number shows how many times the area of the canvas is larger than the area of a single block.
+
+Соотношение площадей холста и блока. Указанное число показывает, во сколько раз площадь холста больше площади одного блока.
+
+</value>
+  </data>
+  <data name="nmb_ratioArea.ToolTip" xml:space="preserve">
+    <value>The ratio of the area of the canvas and the block. The specified number shows how many times the area of the canvas is larger than the area of a single block.
+
+Соотношение площадей холста и блока. Указанное число показывает, во сколько раз площадь холста больше площади одного блока.</value>
+  </data>
+  <data name="label6.ToolTip" xml:space="preserve">
+    <value>The ratio of the length of the connecting line to the height of the block.
+"1" means that the length of the connecting line is equal to the height of the block.
+
+Отношение длины соединительной линии к высоте блока.
+"1" означает, что длина соединительной линии равна высоте блока.</value>
+  </data>
+  <data name="nmb_lengthLine.ToolTip" xml:space="preserve">
+    <value>The ratio of the length of the connecting line to the height of the block.
+"1" means that the length of the connecting line is equal to the height of the block.
+
+Отношение длины соединительной линии к высоте блока.
+"1" означает, что длина соединительной линии равна высоте блока.</value>
+  </data>
+  <data name="chbx_allowFontFl.ToolTip" xml:space="preserve">
+    <value>Allow small fluctuations in the font size to fit the text into the block of the available size.
+Fluctuations in the size of the font will occur only in the direction of decreasing.
+This option significantly increases the time spent on sizing blocks.
+
+Допускать небольшие колебания размера шрифта, чтобы текст уместился в блоке имеющегося размера.
+Колебания размера шрифта будут происходить только в сторону уменьшения.
+Данная опция заметно увеличивает временные затраты на подбор размеров блоков.</value>
+  </data>
+  <data name="chbx_allowWayUp.ToolTip" xml:space="preserve">
+    <value>Allow up-going arrows. 
+This may be necessary when using loops (otherwise breaks will be used).
+
+Разрешить идущие вверх стрелки.
+Это может быть нужно при использовании циклов (иначе будут использоваться разрывы).</value>
+  </data>
+  <data name="chbx_autoRatioArea.ToolTip" xml:space="preserve">
+    <value>If this option is selected, the program will gradually enlarge the canvas until the entire diagram fits on it.
+This mode will require more time to work.
+
+Если выбран этот параметр, программа будет постепенно увеличивать холст, пока на него не уместится вся схема.
+Данный режим потребует больше времени на работу.</value>
+  </data>
+  <data name="chbx_useHexagons.ToolTip" xml:space="preserve">
+    <value>Enable the use of hexagons. According to the instructions, this figure is used to indicate the preparation actions (for some calculations). 
+However, the program can not determine what is the preparation in this context, so for the correct designation of preparatory actions, you must participate in the distinction between the main and additional actions.
+
+Включить использование шестиугольников. По указаниям, данная фигура используется для обозначения действий подготовки (к некоторым вычислениям). 
+Однако, программа не может определить что есть подготовка в данном контексте, по причине чего для корректного обозначения подготовительных действий вы должны принять участие в различении основных и дополнительных действий.</value>
+  </data>
+  <data name="label7.ToolTip" xml:space="preserve">
+    <value>The starting number for the schema blocks. This parameter is needed when splitting a single schema into several parts.
+
+Начальный номер для блоков схемы. Данный параметр нужен при разбиении одной схемы на несколько частей.</value>
+  </data>
+  <data name="nmb_startNum.ToolTip" xml:space="preserve">
+    <value>The starting number for the schema blocks. This parameter is needed when splitting a single schema into several parts.
+
+Начальный номер для блоков схемы. Данный параметр нужен при разбиении одной схемы на несколько частей.</value>
+  </data>
+  <data name="chbx_allowCrossColumn.ToolTip" xml:space="preserve">
+    <value>Allow connecting columns with a line (including to the left up). If you disable this option, the connection of the pillars will be possible only through the connecting circles, or only to the right.
+
+Разрешить соединение столбцов линией (в том числе влево вверх). Если отключить эту опцию, то соединение столбов будет возможно только через соединительные круги, либо только вправо.</value>
+  </data>
+  <data name="nmb_linesInBetw.ToolTip" xml:space="preserve">
+    <value>The maximum number of lines that can be laid in the space between the blocks.
+For example, if there is 1 line, it will go in the center, and if there are 2, it will go on 1/3 and 2/3.
+
+Максимальное количество линий, которые можно проложить в промежутке между блоками.
+Например, если будет 1 линия, она пойдет в центре, а если 2, то на 1/3 и 2/3.</value>
+  </data>
+  <data name="label11.ToolTip" xml:space="preserve">
+    <value>"No long rows" - replace long lines with shorter ones to fit the text in smaller blocks. Changes the text of only commands with a particularly long description.
+"Allow long rows" - allow the output of such rows as are necessary for the message of the main information.
+"Detailed" - describe in detail the algorithm of assembly language commands with complex behavior.
+
+"No long rows" - заменить длинные строки более короткими аналогами, чтобы уместить текст в менее крупные блоки. Изменяет текст только команд с особо длинным описанием.
+"Allow long rows" - разрешить вывод таких строк, какие необходимы для сообщения основной информации.
+"Detailed" - детально описать алгоритм работы команд ассемблера со сложным поведением.</value>
+  </data>
+  <data name="cbx_detailed.ToolTip" xml:space="preserve">
+    <value>"No long rows" - replace long lines with shorter ones to fit the text in smaller blocks. Changes the text of only commands with a particularly long description.
+"Allow long rows" - allow the output of such rows as are necessary for the message of the main information.
+"Detailed" - describe in detail the algorithm of assembly language commands with complex behavior.
+
+"No long rows" - заменить длинные строки более короткими аналогами, чтобы уместить текст в менее крупные блоки. Изменяет текст только команд с особо длинным описанием.
+"Allow long rows" - разрешить вывод таких строк, какие необходимы для сообщения основной информации.
+"Detailed" - детально описать алгоритм работы команд ассемблера со сложным поведением.</value>
+  </data>
+  <data name="label8.ToolTip" xml:space="preserve">
+    <value>"Quick" - do not consider options with a small chance of success.
+"Accurate" - consider all placement options. The result of this mode is rarely better than "Quick", but the time can be spent much more.
+
+"Quick" - не рассматривать варианты, с малыми шансами на успех.
+"Accurate" - рассматривать все варианты размещения. Результат работы данного режима редко превосходит "Quick", но времени может потратиться значительно больше.</value>
+  </data>
+  <data name="cbx_tmode.ToolTip" xml:space="preserve">
+    <value>"Quick" - do not consider options with a small chance of success.
+"Accurate" - consider all placement options. The result of this mode is rarely better than "Quick", but the time can be spent much more.
+
+"Quick" - не рассматривать варианты, с малыми шансами на успех.
+"Accurate" - рассматривать все варианты размещения. Результат работы данного режима редко превосходит "Quick", но времени может потратиться значительно больше.</value>
+  </data>
+  <data name="label10.ToolTip" xml:space="preserve">
+    <value>The maximum number of lines that can be laid in the space between the blocks.
+For example, if there is 1 line, it will go in the center, and if there are 2, it will go on 1/3 and 2/3.
+
+Максимальное количество линий, которые можно проложить в промежутке между блоками.
+Например, если будет 1 линия, она пойдет в центре, а если 2, то на 1/3 и 2/3.</value>
+  </data>
+  <data name="chbx_allowBetwVia.ToolTip" xml:space="preserve">
+    <value>Try placing the connecting circle in the space between the blocks.
+If this placement is successful, it saves space on the chart.
+
+Пробовать размещение соединительного круга в пространстве между блоками.
+Если подобное размещение получается, оно экономит место на диаграмме.</value>
+  </data>
+  <data name="cbx_adj.ToolTip" xml:space="preserve">
+    <value>"Flowchart" - try to reduce the size of the spaces between the blocks.
+"Full canvas" - try to reduce the size of the spaces on the entire canvas (the diagram will stretch across the canvas).
+
+"Flowchart" - стараться уменьшить размер пробелов между блоками.
+"Full canvas" - стараться уменьшить размер пробелов по всему холсту (диаграмма как бы растянется по холсту).</value>
+  </data>
+  <data name="label9.ToolTip" xml:space="preserve">
+    <value>"Flowchart" - try to reduce the size of the spaces between the blocks.
+"Full canvas" - try to reduce the size of the spaces on the entire canvas (the diagram will stretch across the canvas).
+
+"Flowchart" - стараться уменьшить размер пробелов между блоками.
+"Full canvas" - стараться уменьшить размер пробелов по всему холсту (диаграмма как бы растянется по холсту).</value>
+  </data>
+  <data name="nmb_strDiffThr.ToolTip" xml:space="preserve">
+    <value>The threshold for dividing block groups by size.
+Given as a percentage, the number shows what should be the minimum difference between the shorter and longer string lengths. For example, 100% is no difference (no threshold).
+This parameter is used to reduce the number of block sizes used.
+
+Порог разделения групп блоков по размерам.
+Данное в процентах число показывает, какая должна быть минимальная разница между меньшей и большей длинами строк. Например, 100% - это отсутствие разницы (отсутствие порога).
+Данный параметр используется для уменьшения количества использованных размеров блоков.
+</value>
+  </data>
+  <data name="label15.ToolTip" xml:space="preserve">
+    <value>The threshold for dividing block groups by size.
+Given as a percentage, the number shows what should be the minimum difference between the shorter and longer string lengths. For example, 100% is no difference (no threshold).
+This parameter is used to reduce the number of block sizes used.
+
+Порог разделения групп блоков по размерам.
+Данное в процентах число показывает, какая должна быть минимальная разница между меньшей и большей длинами строк. Например, 100% - это отсутствие разницы (отсутствие порога).
+Данный параметр используется для уменьшения количества использованных размеров блоков.</value>
+  </data>
+  <data name="label16.ToolTip" xml:space="preserve">
+    <value>The threshold for dividing block groups by size.
+Given as a percentage, the number shows what should be the minimum difference between the shorter and longer string lengths. For example, 100% is no difference (no threshold).
+This parameter is used to reduce the number of block sizes used.
+
+Порог разделения групп блоков по размерам.
+Данное в процентах число показывает, какая должна быть минимальная разница между меньшей и большей длинами строк. Например, 100% - это отсутствие разницы (отсутствие порога).
+Данный параметр используется для уменьшения количества использованных размеров блоков.</value>
+  </data>
+  <data name="label17.ToolTip" xml:space="preserve">
+    <value>The layout of the grid relative to the blocks.
+"Ceilinged" - the size of the grid cell is equal to the size of the largest block;
+"Inscribed" - the largest blocks can go beyond the cell boundaries, but it is guaranteed not to interfere with cells in other columns;
+"Sparsed" - the largest blocks can extend beyond the cell boundaries so much that they can interfere with neighboring columns (such large blocks affect tracing)
+
+Режим разметки сетки относительно блоков.
+"Ceilinged" - размер ячейки сетки равен размеру наибольшего блока;
+"Inscribed" - наибольшие по размеру блоки могут выходить за границы ячейки, но гарантированно не мешают ячейкам в других столбцах;
+"Sparsed" - наибольшие по размеру блоки могут выходить за границы ячейки настолько, что могут мешать соседним столбцам (такие большие блоки влияют на трассировку)</value>
+  </data>
+  <data name="cbx_gridSzMode.ToolTip" xml:space="preserve">
+    <value>The layout of the grid relative to the blocks.
+"Ceilinged" - the size of the grid cell is equal to the size of the largest block;
+"Inscribed" - the largest blocks can go beyond the cell boundaries, but it is guaranteed not to interfere with cells in other columns;
+"Sparsed" - the largest blocks can extend beyond the cell boundaries so much that they can interfere with neighboring columns (such large blocks affect tracing)
+
+Режим разметки сетки относительно блоков.
+"Ceilinged" - размер ячейки сетки равен размеру наибольшего блока;
+"Inscribed" - наибольшие по размеру блоки могут выходить за границы ячейки, но гарантированно не мешают ячейкам в других столбцах;
+"Sparsed" - наибольшие по размеру блоки могут выходить за границы ячейки настолько, что могут мешать соседним столбцам (такие большие блоки влияют на трассировку)</value>
+  </data>
+  <data name="label12.ToolTip" xml:space="preserve">
+    <value>The distance between the lines.
+One means no distance, and 2 means that the line spacing is the height of one line.
+
+Расстояние между строками.
+Единица означает отсутствие расстояния, а 2 - то, что междустрочный интервал составляет высоту одной строки.</value>
+  </data>
+  <data name="nmb_lineSpacing.ToolTip" xml:space="preserve">
+    <value>The distance between the lines.
+One means no distance, and 2 means that the line spacing is the height of one line.
+
+Расстояние между строками.
+Единица означает отсутствие расстояния, а 2 - то, что междустрочный интервал составляет высоту одной строки.</value>
+  </data>
+  <data name="nmb_fontFlLimit.ToolTip" xml:space="preserve">
+    <value>Limiting the modulus of fluctuation. The specified limit shows how much the value of the font size can deviate in absolute value.
+Please note that the size does not deviate to the larger side.
+
+Ограничение модуля флуктуации. Указанным предел показывает, на сколько по модулю может отклониться значение размера шрифта. 
+Учтите, что в большую сторону размер не отклоняется.</value>
+  </data>
+  <data name="label13.ToolTip" xml:space="preserve">
+    <value>Limiting the modulus of fluctuation. The specified limit shows how much the value of the font size can deviate in absolute value.
+Please note that the size does not deviate to the larger side.
+
+Ограничение модуля флуктуации. Указанным предел показывает, на сколько по модулю может отклониться значение размера шрифта. 
+Учтите, что в большую сторону размер не отклоняется.
+</value>
+  </data>
+  <data name="cbx_loopSize.ToolTip" xml:space="preserve">
+    <value>Determines the sizing mode for loop blocks. Relevant only for the Russian version of the standards.
+"Common" - the selection of the size of the cycle block is carried out in the same way as for other blocks.
+"Group letter" - the sizes of the start and end blocks will be the same, but these blocks are determined by the letter label on the second first edited line.
+"Group type" - the sizes of all the blocks of the cycle will be the same (the blocks of the cycles will be defined in the group in advance).
+
+Определяет режим подбора размера у блоков цикла. Актуально только для русского варианта стандартов.
+"Common" - подбор размеров блока цикла осуществляется так же, как и для других блоков.
+"Group letter" - размеры блоков начала и конца будут совпадать, но определяются эти блоки по буквенной метке на второй первой редактируемой строке.
+"Group type" - размеры всех блоков цикла будут совпадать (блоки циклов будут определены в группу заранее).</value>
+  </data>
+  <data name="label18.ToolTip" xml:space="preserve">
+    <value>Determines the sizing mode for loop blocks. Relevant only for the Russian version of the standards.
+"Common" - the selection of the size of the cycle block is carried out in the same way as for other blocks.
+"Group letter" - the sizes of the start and end blocks will be the same, but these blocks are determined by the letter label on the second first edited line.
+"Group type" - the sizes of all the blocks of the cycle will be the same (the blocks of the cycles will be defined in the group in advance).
+
+Определяет режим подбора размера у блоков цикла. Актуально только для русского варианта стандартов.
+"Common" - подбор размеров блока цикла осуществляется так же, как и для других блоков.
+"Group letter" - размеры блоков начала и конца будут совпадать, но определяются эти блоки по буквенной метке на второй первой редактируемой строке.
+"Group type" - размеры всех блоков цикла будут совпадать (блоки циклов будут определены в группу заранее).
+</value>
+  </data>
+  <data name="label19.ToolTip" xml:space="preserve">
+    <value>The thickness of the connecting line in percent relative to the width of the letter "M" in the specified font.
+
+Толщина соединительной линии в процентах относительно ширины буквы "М" в указанном шрифте.</value>
+  </data>
+  <data name="label20.ToolTip" xml:space="preserve">
+    <value>The thickness of the connecting line in percent relative to the width of the letter "M" in the specified font.
+
+Толщина соединительной линии в процентах относительно ширины буквы "М" в указанном шрифте.</value>
+  </data>
+  <data name="nmb_lineWidth.ToolTip" xml:space="preserve">
+    <value>The thickness of the connecting line in percent relative to the width of the letter "M" in the specified font.
+
+Толщина соединительной линии в процентах относительно ширины буквы "М" в указанном шрифте.</value>
+  </data>
+  <metadata name="dialog_font.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+    <value>89, 17</value>
+  </metadata>
+</root>
